@@ -1,7 +1,8 @@
+import 'dotenv/config'
 import express from 'express'
 
 const app=express()
-const port=3007
+const port=process.env.PORT || 3007
 //  app.use(fucntion(req,res,next))
 //  {
 //     next();
